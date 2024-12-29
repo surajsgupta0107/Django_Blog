@@ -47,5 +47,3 @@ for user in users:
 # s = Serializer("secret")
 # token = s.dumps({"user_id": "1"})
 # s.loads(token, max_age=30)
-
-
