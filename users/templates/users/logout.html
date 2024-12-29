@@ -1,0 +1,11 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+    <h1>{{ block_title }}</h1><hr>
+    <div class="content-section">
+        <div class="alert alert-info">
+            You have been logged out.
+        </div>
+        <a href="{% url 'users-login' %}">Login Again</a>
+    </div>
+{% endblock content %}
